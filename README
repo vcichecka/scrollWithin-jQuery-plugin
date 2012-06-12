@@ -1,1 +1,23 @@
 ScrollWithin jQuery plugin
+
+This jQuery plugin allows to scroll within page using a simple menu linked to section ids and performing a smooth scrolling animation.
+
+EXAMPLE:
+
+$('.nav').scrollWithin({options});
+
+OPTIONS:
+
+active_class: 'active',                 -> (class to apply to menu item when active)
+margin: 0,                              -> (margin in pixel scroll.top)
+parent: false,                          -> (apply active class to parent item)
+duration: 'slow',                       -> (duration of transition scroll)
+easing: null,                           -> (easing type. req. easing plugin)
+hash: false,                            -> (add hash to URL)
+onClickMenu: function() {},             -> (callback onClick)
+onScrollComplete: function() {},        -> (callback onScroll)
+
+
+LIVE DEMO:
+
+http://ondelab.com
